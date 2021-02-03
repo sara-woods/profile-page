@@ -13,6 +13,7 @@ h1 {
   color: rgb(43, 43, 43);
   color: #FF250F;
   margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -32,7 +33,7 @@ p {
 }
 
 .card {
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: white;
   text-align: center;
   padding: 20px 40px 60px 40px;
