@@ -1,0 +1,117 @@
+/* CSS style */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FAE4C9;
+  color: rgb(43, 43, 43);
+  font-size: 22px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: rgb(43, 43, 43);
+  color: #FF250F;
+  margin-top: 10px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #FF250F;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 20px 40px 60px 40px;
+  margin: 20px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 10%);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-red {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: #FF250F;
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.btn-red:hover {
+  background-color: #FAE4C9;
+}
+
+/* Follow me - section */
+
+.list-inline {
+  list-style:  none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.btn-social {
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+  padding: 10px;
+  text-align: center;
+  color:  #fddcb3;
+}
+
+.btn-social:hover {
+  color:  #FF250F;
+}
+
+.card-follow {
+  padding-bottom: 20px;
+  margin-bottom:60px;
+}
+
+/* Responsiveness */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .img-circle {
+    width: 150px;
+  }
+
+  .btn-red {
+    font-size: 15px;
+  }
+}
+
